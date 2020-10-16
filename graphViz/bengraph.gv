@@ -1,0 +1,25 @@
+// Ben Diekhoff
+// CMPS-5323 Computational Epidemiology
+// Dr. Johnson
+// 7/29/2020
+// GraphViz Assignement
+// Makes a graph that shows how good times are created!
+
+digraph G {
+rankdir=LR
+Ben_Diekhoff [color=beige,label="Ben Diekhoff", shape=square]
+water -> beer [color=blue, label="Goes into", decorate=true]
+hops -> beer [color=blue, label="Goes into", decorate=true]
+barley -> beer [color=blue, label="Goes into", decorate=true]
+yeast -> beer [color=blue, label="Goes into", decorate=true]
+beer -> me [arrowhead=vee, color = orange, label="Imbibe",style=bold, fontcolor=red, fontname="Helvetica"]
+me -> goodtimes [color=green, label="S Y N E R G Y", style=dashed, fontname="bold-Helvetica", decorate=true]
+goodtimes -> me [color=green, label="S Y N E R G Y", style=dashed, fontname="bold-Helvetica", decorate=true]
+water [shape=circle, label="Aqua", color=lightblue, style=filled]
+hops [shape=polygon, sides=5, label="Aromatic herbs", color=darkgreen]
+barley [shape=polygon, sides=9 label="Malt", color=yellow, style=dashed]
+yeast [shape=oval, label="Saccharomyces cerevisiae", color=forestgreen, style=filled]
+beer [shape=rectangle, label="Fun juice", color=gold, style=filled, fontname="Bookman-DemiItalic", height=3, width=2]
+me [shape=star, label="Ben", color=bisque, style=filled, fontname="Arial", fontsize=44]
+goodtimes [shape=tripleoctagon, label="Good Times!",color=red, style=dotted, fontcolor=blue]
+}
