@@ -18,3 +18,7 @@ Recovered (blue)
 
 NOTE: The number of immune agents will be rounded down. For example, with a 
 population of 10 that has 35% immunity, only 3 agents wil be immune.
+
+
+# Example Output
+![](https://github.com/BenDiekhoff/5323-Computational-Epidemiology/blob/master/graph-based-slir/graph.png)
