@@ -11,10 +11,11 @@ the fifth state: Recovered. The simulation ends when there are no infectious
 or latent agents left in the population.
 
 The graph has edges between agents who contacted each other, and only shows
-the end of the simulation when there are only 3 possible states:
-Susceptible (green)
-Immune (orange)
-Recovered (blue)
+the end of the simulation when there are only 3 possible states: 
+ 
+- Susceptible (green)  
+- Immune (orange)  
+- Recovered (blue)  
 
 NOTE: The number of immune agents will be rounded down. For example, with a 
 population of 10 that has 35% immunity, only 3 agents wil be immune.
