@@ -17,8 +17,13 @@ the end of the simulation when there are only 3 possible states:
 - Immune (orange)  
 - Recovered (blue)  
 
+The user has the option to show weighted edges, based on the amount of
+contact between two agents, but it becomes increasingly hard to read as 
+population size and contact increases.
+
 NOTE: The number of immune agents will be rounded down. For example, with a 
 population of 10 that has 35% immunity, only 3 agents wil be immune.
+
 
 
 # Example Output
